@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-application-tracker"
+version = "0.1.0"
+description = "A Flask application to track job applications."
+readme = "README.md"
+requires-python = ">=3.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Framework :: Flask",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "flask",
+    "psycopg2-binary",
+    "flask-cors",
+    "flask-login",
+    "sqlalchemy",
+    "alembic",
+    "passlib",
+    "python-dotenv"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pacrob/job-application-tracker"
+"Bug Tracker" = "https://github.com/pacrob/job-application-tracker/issues"
