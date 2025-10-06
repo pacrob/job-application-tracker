@@ -8,10 +8,10 @@ version = "0.1.0"
 description = "A Flask application to track job applications."
 readme = "README.md"
 requires-python = ">=3.13"
+license = "MIT"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Framework :: Flask",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
 dependencies = [
