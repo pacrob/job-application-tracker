@@ -28,3 +28,6 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/pacrob/job-application-tracker"
 "Bug Tracker" = "https://github.com/pacrob/job-application-tracker/issues"
+
+[tool.setuptools]
+packages = ["backend"]
